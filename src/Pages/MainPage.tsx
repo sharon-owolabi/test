@@ -30,11 +30,9 @@ const MainPage: React.FC = () => (
     ))}
     <Seperator />
     <section aria-labelledby="skills-title"><h2 id="skills-title">Skills</h2><p>{skills.join(" · ")}</p></section>
-    <section aria-labelledby="contact-title"><h2 id="contact-title">CV &amp; Contact</h2>
+    <section aria-labelledby="contact-title"><h2 id="contact-title">Contact</h2>
       <div style={{ display: "flex", flexWrap: "wrap", gap: "24px", fontSize: "1.2rem" }}>
-        {/* {PersonalInfo.cvUri ? <a href={PersonalInfo.cvUri}>Download CV</a> : <span>CV — coming soon</span>} */}
         <a href={PersonalInfo.links.itchIO} target="_blank" rel="noreferrer">itch.io</a>
-        {/* {PersonalInfo.links.github ? <a href={PersonalInfo.links.github}>GitHub</a> : <span>GitHub — coming soon</span>} */}
         {PersonalInfo.links.linkedIn ? <a href={PersonalInfo.links.linkedIn}>LinkedIn</a> : <span>LinkedIn — coming soon</span>}
         {contactEmail ? <a href={`mailto:${contactEmail}`}>{contactEmail}</a> : <span>Contact — coming soon</span>}
       </div>
