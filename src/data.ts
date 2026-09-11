@@ -34,7 +34,7 @@ export const games: Game[] = [
   },
   {
     name: "Three.js Combat Prototype",
-    description: "A browser-based 3D combat prototype built with Three.js. An exploration of interactive gameplay outside Unity.",
+    description: "A browser-based 3D souls-like combat prototype built with Three.js. An exploration of interactive gameplay outside Unity.",
     genres: ["Combat", "Prototype"], platforms: [Platform.Web], engine: GameEngine.ThreeJS,
     links: [], source: { name: "Browser Combat Prototype", url: "https://threejs-iota-one.vercel.app/" }, media: media("threejs-combat", ["0910(1).gif", "Screenshot 2026-09-10 at 18.39.09.png", "Screenshot 2026-09-10 at 18.39.20.png"])
   },
