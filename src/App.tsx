@@ -6,7 +6,6 @@ import MainPage from "./Pages/MainPage";
 import SelfSummary from "./Components/SelfSummary";
 
 import { Column } from "./Styles/StyledComponents";
-import Footer from "./Components/Footer";
 
 const AppContainer = styled(Column)`
   min-height: 90vh;
@@ -31,7 +30,6 @@ const App: React.FC = () => {
 
         <MainPage />
       </AppContainer>
-      <Footer />
     </Router>
   );
 };
