@@ -2,6 +2,7 @@ import React from "react";
 import { HashRouter as Router } from "react-router-dom";
 import { styled } from "styled-components";
 import MainPage from "./Pages/MainPage";
+import { Analytics } from "@vercel/analytics/react"
 
 import SelfSummary from "./Components/SelfSummary";
 
